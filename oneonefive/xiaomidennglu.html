@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米登陆界面</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .atop{
+            margin-left:80px;
+        }
+        .bmindle img{
+
+            cursor: pointer;
+            width: 100%;
+            height: 460px;
+            position: center;
+        }
+        .bmindle{
+
+        }
+        .denglu{
+            position: absolute;
+
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            right: 50px;
+            top: 120px;
+
+        }
+
+        ul  {
+            font-size: 20px;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 20px;
+
+        }
+        #log{
+            color: #f56600;
+            border-right: 1px solid black;
+            padding-right: 10px;
+
+        }
+        .login{
+            width: 260px;
+            height: 35px;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        .mima{
+            width: 260px;
+            height: 35px;
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right:15px;
+            margin-bottom: 15px;
+
+        }
+        .loginn{
+            background-color: #f56600;
+            color: white;
+            width: 266px;
+            height: 40px;
+            margin-right: 15px;
+            margin-left: 15px;
+            border: none;
+
+        }
+        span{
+            font-size: 10px;
+        }
+        .shouji{
+            margin-left: 15px;
+            margin-right: 55px;
+            color: red;
+        }
+        .zhuce {
+            color: gray;
+            margin-left: 15px;
+        }
+        .qita{
+            color: gray;
+            margin-top: 130px;
+            border: none;
+            border-top: 1px solid ;
+
+        }
+        .tupian{
+            margin-top: 2px;
+            margin-right: 5px;
+        }
+
+        a{
+            list-style-type: none;
+            display: inline-block;
+            height: 18px;
+            width: 18px;
+            margin-right: 12px;
+            margin-top: 0px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        #first{
+            background-image: url("../img/icons_type.png");
+            background-color: gray;
+            background-position: -18px -36px;
+            vertical-align: middle;
+
+        }
+        #second{
+            background-image: url("../img/icons_type.png");
+            background-color: gray;
+            background-position: -37px -36px;
+            vertical-align: middle;
+        }
+        #third{
+            background-image: url("../img/icons_type.png");
+            background-color: gray;
+            background-position: -58px -36px;
+            vertical-align: middle;
+        }
+        #td{
+            background-image: url("../img/icons_type.png");
+            background-color: gray;
+            background-position: -86px -36px;
+            vertical-align: middle;
+        }
+        .tupian a:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="atop">
+        <img src="../img/mistore_logo.png"/>
+    </div>
+    <div class="bmindle">
+        <img src="../img/a.jpg"/>
+
+    </div>
+    <div class="denglu">
+        <ul class="wenzi">
+            <b id="log">帐号登录</b>
+            <b>扫码登录</b>
+
+        </ul>
+        <input class="login" type="text" value="邮箱/手机号码/小米id" >
+        <input class="mima" type="text" value="密码" >
+        <button class="loginn">登录</button>
+        <span class="shouji">手机短信登录/注册</span>
+        <span class="zhuce">立即注册丨忘记密码？</span>
+        <fieldset class="qita">
+            <legend align="center">其他方式登录</legend>
+        </fieldset>
+        <ul class="tupian">
+            <a id="first"></a>
+            <a id="second"></a>
+            <a id="third" ></a>
+            <a id="td"></a>
+        </ul>
+
+    </div>
+
+</body>
+</html>
