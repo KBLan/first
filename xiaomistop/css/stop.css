@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+
+}
+.header .top-nav{
+    width: 430px;
+    height: 40px;
+    margin-left: 18px;
+    float:left;
+
+
+}
+.header .top-nav a{
+    font-family: sans-serif;
+
+    color: #b0b0b0;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+
+
+}
+.header .top-nav a:hover{
+    color: white;
+}
+
+.header .shopping{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-top: -40px;
+    background-color: #424242;
+    text-align: center;
+
+
+}
+.header .top-right{
+    margin-left: 1000px;
+
+    /*margin-top: -40px;*/
+
+
+}
+.header .top-right a{
+    font-family: sans-serif;
+
+    color: #b0b0b0;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.header .shopping a {
+    font-family: sans-serif;
+
+    color: #b0b0b0;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    padding:17px 36px ;
+}
+.header .top-right a:hover{
+    color: white;
+}
+.header .shopping a:hover{
+    background: white;
+    color: #f56600;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/*header css end*/
+/*mindle css start*/
+.middle{
+    width: 100%;
+    height: 100px;
+}
+.middle .log{
+    background: #f56600;
+    width: 55px;
+    height: 55px;
+    margin-left:15px ;
+    margin-top: 15px;
+}
+.log-text .log-texts li{
+    display: inline;
+}
