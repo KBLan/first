@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header a{
+    display: block; /*把行级元素转换成块级元素*/
+    width:200px;
+
+}
+/*.header img{*/
+    /*vertical-align: top;*/
+    /*!*设置等高的一种方法*!*/
+    /*!*line-height: 0;*!*/
+/*}*/
+.header{
+    line-height: 0;
+    width: 1130px;
+    margin: 0 auto;
+}
+/*header css end*/
+
+/*container css start*/
+.container{
+    background-image: url("../images/a.jpg");
+    background-position: center;
+    height: 588px;
+}
+.container .login-bar{    /*一般不要超过三级*/
+    width: 1130px;
+    margin: 0 auto;
+
+}
+.container .login-form{
+    width: 410px;
+    height: 524px;
+    background: #ffffff;
+    float: right;
+    margin-top: 32px;
+
+}
+.container .top-text{
+    padding: 27px 0 24px;/*0可以不加单位  上   左右   下     四个 上右下左   两个  上下左右  */
+    text-align: center;/*文字居中*/
+    font-size: 24px;/*竖线文字大小*/
+    cursor: pointer;
+}
+.container .top-text a{
+    text-decoration: none; /*去掉下划线*/
+
+    color: #666;
+}
+.container .border-line{
+    margin: 0 35px 0 20px;
+    border-left:2px solid #dddddd ;
+    cursor: pointer;
+}
+.container .top-text a:first-child{
+    color: #f56600;
+}
+.container .top-text a:hover{
+    color: #f56600;
+}
+/*.container .login-input{*/
+    /*width: 348px;*/
+    /*margin: 0px auto;*/
+/*}*/
+.container .login-input input{
+
+    font-size: 14px;
+    width: 306px;
+    height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin-bottom: 14px;
+    outline: none;
+}
+.container .login-content{
+    width: 348px;
+    margin: 0 auto;
+
+}
+/*如果有两种input 可以用input[type="button"]  或者input：firstchild*/
+.container .login-btn input{
+    background: #f56600;
+    border: none;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.container .small-text{
+    font-size: 14px;
+    color: #757575;
+    margin-top: 10px;
+}
+.container .small-text a{
+    text-decoration: none;
+    color: #757575;
+
+}
+.container .st-left{
+    float: left;/*使用float会脱离文档流*/
+
+}
+.container .st-left a{
+    color: #f56600;
+}
+.container .st-right{
+    float: right;
+
+}
+.clearfix:after{/*伪类   解决脱离文档流*/
+    content: "";
+    clear: both;    /*清除浮动*/
+    display: block;
+}
+.container .login-type{
+    margin-top: 115px;
+}
+.container .login-type fieldset{
+    border:0; /*去除边框*/
+    border-top:1px solid #bbb;
+    color: #bbb;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.container .login-icon{
+    text-align: center;
+}
+.container .login-icon a{
+    width: 30px;
+    height: 30px;
+    background: #757575;
+    display: inline-block;
+    border-radius:50% ;
+    margin:0 17px;
+}
+.container .login-icon i{ /*i行级元素*/
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image:url("../images/icons_type.png") ;
+    margin:4px auto 0 ;
+
+}
+.container .qq i{
+    background-position: -19px 0;/*图片位置坐标轴从00点开始  从负值*/
+}
+.container .sina i{
+    background-position: -38px 0;
+}
+.container  .aplay i{
+    background-position: -57px 0 ;
+    width: 23px;
+
+}
+.container  .wetchat i{
+    background-position: -86px 0;
+    width: 21px;
+}
+.container .qq:hover{
+    background-color: #0288d1;
+
+}
+.container .sina:hover{
+    background-color: #d32f2f;
+}
+.container .aplay:hover{
+    background-color: #0ac;
+
+}
+.container .wetchat:hover{
+    background-color: #00d20d;
+}
+
+/*container css end*/
